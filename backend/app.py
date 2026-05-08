@@ -3,8 +3,10 @@ from db import get_db_connection
 import string
 import random
 import re
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
 
 # Validate URL
 def is_valid_url(url):
