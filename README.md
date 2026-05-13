@@ -45,15 +45,20 @@ Tools:
 ▶️ How to Run Locally
 Backend
 
-cd backend
-pip install -r requirements.txt
-python app.py
+- cd backend
+- pip install -r requirements.txt
+- python app.py
 
 Frontend
 
-cd frontend
-npm install
-npm run dev
+- cd frontend
+- npm install
+- npm run dev
+
+Live demostration
+
+https://github.com/user-attachments/assets/143b47a5-598c-49fa-8e95-0a021b65b769
+
 
 🧠 Key Learnings
 - REST API development with Flask
